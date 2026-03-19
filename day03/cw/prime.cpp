@@ -1,10 +1,3 @@
-/** This program allows a user to type any integer value and will check if the number is prime or not.*/
-/** NOTE: A number is prime if it is divisible by only itself and 1. (e.g. 5 is prime but 6 is not) */
-/** Additional comments can be found at the end of the code. */
-/** HAPPY LEARNING! */
-
-/*************** CODE ************************/
-
 #include <iostream>
 #include <cmath>
 using namespace std;
@@ -48,9 +41,3 @@ bool prime(int x) {
 	return true; /* see 4 */
 } // end prime()
 
-/*************** COMMENTS ********************/
-/* 1. If the function prime returns true, print is prime. If it returns false, print is not prime. */
-/* 2. Check if there is any divisor for x between 2 and x-1. If a divisor is found the number is not prime and the function returns false.
- * If no divisor is found after the loop terminates the number must be prime and the function returns true. */
-/* 3. (x % i) is zero only if i divides x. Since i is a divisor of x, x is not prime. */
-/* 4. This statement is executed only if the loop terminates and there is no divisor for x. */
